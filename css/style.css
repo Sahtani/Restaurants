@@ -244,7 +244,7 @@ footer {
 }
 .div2 {
   display: flex;
-  gap: 595px;
+  gap: 300px;
 }
 .btn {
   color: var(--bg-color);
@@ -293,7 +293,7 @@ footer {
 }
 .div3 {
   display: flex;
-  gap: 599px;
+  gap: 300px;
 }
 .img_paragraph {
   display: flex;
