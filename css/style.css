@@ -22,13 +22,9 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* #body{
-  animation-name:  slideleft;
-  animation-duration: 2s;
+input,textarea{
+  outline: none;
 }
-@keyframes slideleft{
-  from{transform:translateX(300%);}
-} */
 .countainer {
   background-image: linear-gradient(var(--text-color), transparent);
   height: 100vh;
@@ -52,7 +48,6 @@ header {
 header li:hover {
   border-bottom: 1px solid white;
 }
-
 .logo {
   font-size: 35px;
   font-weight: 600;
@@ -71,13 +66,12 @@ ul {
   margin-right: 10px;
   margin-left: 30%;
 }
-
 nav a {
   color: var(--bg-color);
 }
 .home {
   width: 100%;
-  height: 100vh;
+  height: 90%;
 }
 .home-text {
   color: var(--bg-color);
@@ -86,7 +80,6 @@ nav a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 20px; */
 }
 .home-text .first_title {
   color: var(--bg-color);
@@ -99,7 +92,7 @@ nav a {
   border-bottom: 5px solid var(--ligne-color);
 }
 
- .icons{
+ .footer_icons{
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -108,14 +101,10 @@ background-color: transparent;
    padding-top: 20px; 
    margin-top: 10px;
 }
-/* .icons{
-  background-color:transparent;
-} */
  a i{
-  background-color: transparent;
-  font-size: 25px;
-}
+  font-size: 35px;
 
+}
 .text {
   color: #fff;
   text-align: center;
@@ -133,7 +122,6 @@ background-color: transparent;
   color: var(--bg-color);
   padding: 100px 10%;
 }
-
 .div1 {
   margin-top: 50px;
   display: flex;
@@ -163,7 +151,6 @@ background-color: transparent;
   letter-spacing: 2px;
   text-wrap: wrap;
   width: 600px;
-
 } 
 h3 {
   margin-top: 20px;
@@ -177,64 +164,41 @@ h3 {
   font-family: "Ruda", sans-serif;
 }
 footer {
-  width: 100%;
-  height: 100vh;
   background-image: url(../img/im2.png);
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.pizza {
+.pizza_img {
   width: 80%;
   margin-left: 10%;
 }
-.footer {
+.footer_container {
   color: var(--bg-color);
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 1.5rem;
   align-items: center;
 }
-.footer .first_title {
+.footer_container .first_title {
   color: var(--bg-color);
   font-family: "Quattrocento", serif;
   font-size: 80px;
   width: auto;
 }
-i {
-  margin-top: 0;
-  height: 40px;
-  width: 40px;
-  background: white;
-
-  color: var(--text-color);
-  justify-content: center;
-  font-size: 21px;
+.footer_container .copyright {
+  width: 100%;
+  font-size: 20px;
+  background-color: #000000;
+  padding: 1rem 0;
+  text-align: center;
 }
-/* .line_black {
-  width: 1519px;
-  height: 80px;
-  background-color: var(--text-color);
-  border: var(--text-color);
-
-} */
- /* .foot {
-  margin-top: 0px;
-  
-} */
-
+.p{
+  font-size: 30px !important;
+}
 .line2_find {
   border-bottom: 5px solid var(--ligne-color);
-}
-.rect {
-  background-color: var(--text-color);
-  font-family: "Ruda", sans-serif;
-  width: 1519px;
-  text-align: center;
-  padding: 20px;
-  margin-top: 5px;
-  
 }
 /* about us p1 ////////////////////////////////////////////////*/
 #header_aboutus {
@@ -242,7 +206,6 @@ i {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 #header_aboutus li:hover {
   border-bottom: 1px solid white;
 }
@@ -255,7 +218,7 @@ i {
 }
 #body_aboutus {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(../img/back_aboutsus.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +226,6 @@ i {
 }
 .text2 {
   color: #fff;
-
   font-family: "Ruda", sans-serif;
   font-size: 1000px;
   font-style: normal;
@@ -273,16 +235,16 @@ i {
   width: 474px;
   height: 600px;
   padding-left: 0px;
+  margin-top: 20px;
 }
 .about_us {
   background-color: var(--text-color);
   color: var(--bg-color);
   padding: 100px 10%;
 }
-
 .div2 {
   display: flex;
-  gap: 700px;
+  gap: 595px;
 }
 .btn {
   color: var(--bg-color);
@@ -290,6 +252,9 @@ i {
  
   height: 54px;
   width: 146px;
+}
+.btn:hover{
+  cursor: pointer;
 }
 .btn button {
   color: var(--ligne-color);
@@ -320,11 +285,6 @@ i {
   transform: scale(1.1);
   transition: 0.2s ease;
 }
-
-.text2 {
-  margin-top: 20px;
-}
-
 /*about us p2*/
 .about_us2 {
   background-color: var(--text-color);
@@ -333,22 +293,19 @@ i {
 }
 .div3 {
   display: flex;
-  gap: 700px;
+  gap: 599px;
 }
-
 .img_paragraph {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 700px;
+  gap: 595px;
 }
-
 .line_aboutp2 {
   border-bottom: 5px solid var(--ligne-color);
   margin-top: 4%;
   margin-bottom: 15px;
 }
-
 .img_aboutus2 {
   width: 500px;
   height: 800px;
@@ -357,7 +314,6 @@ i {
   transform: scale(1.1);
   transition: 0.2s ease;
 }
-
 .text3 {
   color: #fff;
   text-align: center;
@@ -373,24 +329,6 @@ i {
 }
 .p4 {
   text-align: start;
-}
-
-/*footer abouts us//////////////////////////////////////////////////////////////*/
-
-.rect_aboutus {
-  background-color: var(--text-color);
-  font-family: "Ruda", sans-serif;
-
-  text-align: center;
-  padding: 30px;
-  width: 100%;
-
-  height: 100px;
-  margin-top:200px;
-}
-.p_rect {
-  letter-spacing: 2px;
-  font-size: 20px;
 }
 /*style de contact_us/////////////////////////////////////////////////////////////*/
 #header_contact_us {
@@ -420,7 +358,6 @@ i {
 input {
   width: 800px;
   height: 90px;
-  /* border: 0px solid var(--bg-color); */
   border-radius: 20px;
   margin-bottom: 30px;
   font-size: x-large;
@@ -436,16 +373,6 @@ input {
 input:focus {
   border: 0px solid white;
 }
-/* .rect_contact_us {
-  background-color: var(--text-color);
-  font-family: "Ruda", sans-serif;
-
-  text-align: center;
-  padding: 30px;
-  width: 100%;
-
-  height: 80px;
-} */
 .message {
   border: none;
   border-radius: 15px;
@@ -487,18 +414,14 @@ input[type="button"] {
   padding-left: 50px;
   letter-spacing: 0px;
 }
-
 /*MENU////////////////////////////*/
 .menu_home {
   background-color: var(--text-color);
-  margin-top: 292px;
- 
 }
 .countainer_menu{
   background-image: linear-gradient(transparent, var(--text-color));
   height: 100vh;
 }
-
 .menu {
   display: flex;
   justify-content: space-around;
@@ -541,7 +464,6 @@ flex-direction: column;
 .img1_desc:hover{
   transform: scale(1.1);
   transition: 0.2s ease;
-
 }
 .menu img {
   width: 200px;
@@ -559,11 +481,3 @@ padding-top:5px;
   font-size: 25px;
 }
 /*footer///////////////////////////////////////////*/
-.rect1{
-  background-color: var(--text-color);
-  font-family: "Ruda", sans-serif;
-  width: 1519px;
-  text-align: center;
-  padding: 20px;
-   margin-top: 60px; 
-}
