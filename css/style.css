@@ -90,6 +90,7 @@ nav a {
 }
 .line1 {
   border-bottom: 5px solid var(--ligne-color);
+  width:600px;
 }
 
  .footer_icons{
@@ -276,6 +277,7 @@ footer {
 .line_aboutp1 {
   border-bottom: 5px solid var(--ligne-color);
   margin-top: 6%;
+  width:400px;
 }
 .img_aboutus1 img {
   width: 500px;
@@ -305,6 +307,7 @@ footer {
   border-bottom: 5px solid var(--ligne-color);
   margin-top: 4%;
   margin-bottom: 15px;
+  width:400px; 
 }
 .img_aboutus2 {
   width: 500px;
