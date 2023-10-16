@@ -92,19 +92,17 @@ nav a {
   border-bottom: 5px solid var(--ligne-color);
   width:600px;
 }
-
  .footer_icons{
   display: flex;
   align-items: center;
   justify-content: space-around;
-background-color: transparent; 
+  background-color: transparent; 
   gap:30px;
    padding-top: 20px; 
    margin-top: 10px;
 }
  a i{
   font-size: 35px;
-
 }
 .text {
   color: #fff;
@@ -164,6 +162,7 @@ h3 {
   letter-spacing: 3.6px;
   font-family: "Ruda", sans-serif;
 }
+/*footer//////////////////////*/
 footer {
   background-image: url(../img/im2.png);
   background-repeat: no-repeat;
@@ -197,27 +196,28 @@ footer {
 }
 .p{
   font-size: 30px !important;
-}
+} 
 .line2_find {
   border-bottom: 5px solid var(--ligne-color);
+  width:300px;
 }
 /* about us p1 ////////////////////////////////////////////////*/
-#header_aboutus {
+.header_aboutus {
   background-color: var(--text-color);
   padding-top: 30px;
   padding-bottom: 30px;
 }
-#header_aboutus li:hover {
+.header_aboutus li:hover {
   border-bottom: 1px solid white;
 }
-#header_aboutus li a {
+.header_aboutus li a {
   font-size: 25px;
 }
 .countainer_aboutus {
   background-image: linear-gradient(transparent, var(--text-color));
   height: 100vh;
 }
-#body_aboutus {
+.body_aboutus {
   width: 100%;
   min-height: 100vh;
   background-image: url(../img/back_aboutsus.png);
@@ -365,7 +365,6 @@ input {
   margin-bottom: 30px;
   font-size: x-large;
   color: var(--bg-color);
-
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .input {
@@ -388,12 +387,10 @@ input[type="button"] {
   background-color: var(--ligne-color);
 }
 /*style de menu///////////////////////////////////*/
-
 #header_menu {
   background-color: var(--text-color);
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
 #header_menu li:hover {
   border-bottom: 1px solid var(--bg-color);
